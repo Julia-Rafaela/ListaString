@@ -10,5 +10,6 @@ public interface ILista {
 	public String get(int pos) throws Exception;
 	void addLast(String valor) throws Exception;
 	void add(String valor, int pos) throws Exception;
-	void addFirst(String valor);	
+	void addFirst(String valor);
+	
 }
